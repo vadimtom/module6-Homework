@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 60px;
+}
+div {
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+header .navigation {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #95E1D3;
+}
+.navbar {
+    list-style: none;
+    padding-top: 10px;
+}
+.navbar li {
+    display: inline-block;
+    margin: 20px;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #95E1D3;
+    font-family: Montserrat, sans-serif;
+}
+.navbar li a:hover {
+    color: #F38181;
+    position: relative;
+    transition-duration: 400ms;
+}
+.navbar li a:hover:after {
+    content: '';
+    height: 4px;
+    width: 100%;
+    background-color: #F38181;
+    margin-top: 10px;
+    display: block;
+    position: absolute;
+}
+.title {
+    text-align: center;
+    padding-top: 110px;
+}
+.first {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.second {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 15px;
+
+}
+.title:after {
+    content: '';
+    height: 4px;
+    width: 60px;
+    background-color: #F38181;
+    margin-top: 40px;
+    display: block;
+    margin-left: 570px;
+}
+.main-info {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+
+}
+.info {
+    width: 350px;
+    padding-left: 65px;
+    margin-left: 40px;
+    padding-top: 100px;
+}
+.info img {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 5px;
+}
+.caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.text {
+    font-family: 'Roboto Thin', sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.text2 {
+    width: 850px;
+    height: 40px;
+    padding-top: 50px;
+    margin-left: 160px;
+    text-align: center;
+    font-family: 'Roboto Thin', sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.specialists {
+    padding-top: 100px;
+}
+.card {
+    width: 380px;
+    height: 600px;
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+}
+.top-card {
+text-align: center;
+    height: 450px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+.card-overlay {
+    display: none;
+    background: linear-gradient(180deg, rgba(221, 76, 76,0.8), rgba(174, 197, 100,0.8));
+    box-shadow: 18px 18px 1px -7px rgba(149, 225, 211, 1);
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card:hover .card-overlay {
+    display: flex;
+}
+.card-icons {
+    display: flex;
+    height: 60px;
+    width: 225px;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    background-color: #FCE38A;
+    margin: 1px;
+}
+.icon:hover{
+    background-color: #95E1D3;
+}
+.name {
+    padding-top: 30px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.position {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.specialists:after {
+    content: '';
+    height: 2px;
+    width: 1200px;
+    background-color: #E5E5E5;
+    margin-top: 40px;
+    display: block;
+}
+.menu {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}
+span {
+    color: #F38181;
+}
+.e-mail {
+    display: flex;
+    flex-direction: row;
+}
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+input {
+    height: 40px;
+    width: 230px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    border: 1px solid #E5E5E5;
+    color: #E5E5E5 ;
+}
+input::placeholder {
+    color: #D3D3D3;
+    padding-left: 10px;
+}
+
+.button {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    background-color: #95E1D3;
+    height: 32px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+}
